@@ -1,0 +1,25 @@
+{
+  "name": "chrome-extension-vite-vue-template",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "node build.mjs development",
+    "build": "node build.mjs production"
+  },
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.1.0",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "stylus": "^0.58.1",
+    "vite": "^2.9.9",
+    "vite-plugin-eslint": "^1.6.1"
+  }
+}
